@@ -19,7 +19,7 @@
 
 Welcome to my personal cybersecurity portfolio repository! This website showcases my journey in computer science, featuring verified certifications, internship exposure, and hands-on Python/Networking projects.
 
-- **🌐 Live Website:** [bhoomijaiswal28.github.io](https://bhoomijaiswal28.github.io/)
+- **🌐 Live Website:** [bhoomijaiswal28.github.io](https://bhoomijaiswal28.github.io/bhoomiportfolio/)
 - **⚡ Tech Stack:** HTML5, CSS3 (Custom Dark Theme), JavaScript
 - **⚙️ Version Control & Hosting:** Git, GitHub Pages
 
