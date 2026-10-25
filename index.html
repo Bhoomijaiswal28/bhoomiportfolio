@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#191927">
+  <meta name="description" content="Bhoomi Jaiswal — Cyber Security Student and Developer Portfolio">
+  <title>Bhoomi Jaiswal | Cybersecurity Portfolio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topline">
+    <span>BH//SEC — PERSONAL PORTFOLIO</span>
+    <span><i class="pulse"></i> OPEN TO LEARNING</span>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="navbar">
+    <a class="brand" href="#home">BJ<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certificates</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="Bhoomi jaiswal resume.jpeg" target="_blank" download="Bhoomi_Jaiswal_Resume.jpeg" class="nav-cta">Resume 📄</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="accent">01 /</span> CYBERSECURITY • DEVELOPMENT</p>
+        <p class="intro">HELLO, I'M</p>
+        <h1>BHOOMI<br><span class="outline-name">JAISWAL.</span></h1>
+        <h2>I learn. I build. I secure.</h2>
+        <p class="hero-description">
+          Computer Science student exploring cybersecurity, Python, ethical hacking, and network defense — one project at a time.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">EXPLORE MY WORK ↘</a>
+          <a class="button button-ghost" href="Bhoomi jaiswal resume.jpeg" target="_blank" download="Bhoomi_Jaiswal_Resume.jpeg">VIEW CV ↗</a>
+        </div>
+        <div class="hero-tags">
+          <span>ETHICAL HACKING</span>
+          <span>NETWORKING</span>
+          <span>CYBERSECURITY</span>
+        </div>
+      </div>
+
+      <!-- Terminal Component -->
+      <aside class="terminal">
+        <div class="terminal-head">
+          <span>
+            <i class="dot red"></i>
+            <i class="dot yellow"></i>
+            <i class="dot accent-dot"></i>
+          </span>
+          <span>system_monitor.exe</span>
+          <span>LIVE</span>
+        </div>
+        <div class="terminal-body">
+          <p class="muted">bhoomi@portfolio:~$ whoami</p>
+          <h3>CYBERSECURITY<br>STUDENT<span class="accent">_</span></h3>
+          <div class="terminal-line"><span>STATUS</span><b class="accent">LEARNING / ACTIVE</b></div>
+          <div class="terminal-line"><span>LOCATION</span><b>INDIA</b></div>
+          <div class="terminal-line"><span>LOCAL TIME</span><b id="clock">--:--:--</b></div>
+          <div class="terminal-line"><span>FOCUS</span><b>PYTHON + SECURITY</b></div>
+          <div class="terminal-progress"><span></span></div>
+          <p class="muted">Building practical skills, not just collecting tools.</p>
+        </div>
+      </aside>
+
+      <div class="hero-index">
+        PORTFOLIO / 2026 <span>SCROLL TO EXPLORE ↓</span>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats section-wrap">
+      <div><strong>07<span>+</span></strong><small>PROJECT BUILDS</small></div>
+      <div><strong>04<span>+</span></strong><small>CERTIFICATIONS</small></div>
+      <div><strong>∞</strong><small>ALWAYS LEARNING</small></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-wrap content-section" id="about">
+      <div class="section-label">
+        01 / ABOUT ME <span>THE PERSON BEHIND THE CODE</span>
+      </div>
+      <div class="about-grid">
+        <h2>CURIOUS BY<br>NATURE.<br><span class="accent">SECURITY</span><br>MINDED.</h2>
+        <div class="about-copy">
+          <p class="large-copy">I’m Bhoomi — a Computer Science student specializing in Cyber Security.</p>
+          <p>I enjoy learning how systems work, exploring networking concepts, and creating Python projects that solve practical security problems. My goal is to keep improving through hands-on work, job simulations, and responsible security learning.</p>
+          <div class="about-chips">
+            <span>01 / LEARN</span>
+            <span>02 / BUILD</span>
+            <span>03 / DEFEND</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Card -->
+      <article class="profile-card">
+        <p class="profile-tagline">Learning how systems work, building small security tools and practising how to defend them.</p>
+        <p class="profile-status"><span>STATUS: BUILDING</span> // <span>MODE: LEARNING</span></p>
+        <figure class="profile-portrait">
+          <img src="bhoomi.jpg" alt="Bhoomi Jaiswal">
+          <figcaption>PROFILE / 2026</figcaption>
+        </figure>
+        <dl class="profile-facts">
+          <div><dt>BASED IN</dt><dd>INDIA</dd></div>
+          <div><dt>FOCUS</dt><dd>CYBERSECURITY</dd></div>
+          <div><dt>CURRENTLY</dt><dd>BUILDING &amp; LEARNING</dd></div>
+          <div><dt>EDUCATION</dt><dd>COMPUTER SCIENCE STUDENT</dd></div>
+        </dl>
+      </article>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-wrap content-section" id="skills">
+      <div class="section-label">02 / TOOLKIT <span>MY CURRENT WORKBENCH</span></div>
+      <div class="section-heading">
+        <h2>TOOLS I’M <span class="accent">EXPLORING.</span></h2>
+        <p>Skills grow through practice.<br>Here’s my learning stack.</p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span>01 / CODE</span>
+          <div class="skill-icon">Py</div>
+          <h3>Python</h3>
+          <p>Scripts, security utilities and automation basics.</p>
+          <div class="skill-foot">LEARNING <span>↗</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span>02 / SYSTEMS</span>
+          <div class="skill-icon">$_</div>
+          <h3>Linux</h3>
+          <p>Command line, files, processes and permissions.</p>
+          <div class="skill-foot">PRACTICING <span>↗</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span>03 / NETWORK</span>
+          <div class="skill-icon">⌘</div>
+          <h3>Networking</h3>
+          <p>IP, protocols and understanding network traffic.</p>
+          <div class="skill-foot">LEARNING <span>↗</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span>04 / SECURITY</span>
+          <div class="skill-icon">⌑</div>
+          <h3>Ethical Hacking</h3>
+          <p>Penetration testing basics, scanning &amp; threat mitigation.</p>
+          <div class="skill-foot">BUILDING <span>↗</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span>05 / WEB</span>
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>HTML / CSS / JS</h3>
+          <p>Responsive websites and interactive interfaces.</p>
+          <div class="skill-foot">BUILDING <span>↗</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span>06 / WORKFLOW</span>
+          <div class="skill-icon">Git</div>
+          <h3>Git &amp; GitHub</h3>
+          <p>Version control and sharing project code.</p>
+          <div class="skill-foot">PRACTICING <span>↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <!-- Certifications Section -->
+    <section class="section-wrap content-section" id="certifications">
+      <div class="section-label">02.5 / CERTIFICATIONS <span>VERIFIED KNOWLEDGE</span></div>
+      <div class="section-heading">
+        <h2>CERTIFICATES &amp; <span class="accent">CREDENTIALS.</span></h2>
+        <p>Verified training &amp; practical simulation credentials.<br>Continuous skill expansion.</p>
+      </div>
+
+      <div class="skill-grid">
+        
+        <!-- 01: Cisco Ethical Hacker -->
+        <article class="skill-card">
+          <span>01 / ETHICAL HACKING</span>
+          <div class="skill-icon">CIS</div>
+          <h3>Cisco Networking Academy</h3>
+          <p><strong>Ethical Hacker Course</strong><br>Penetration testing methodologies, vulnerability scanning, social engineering, and cloud/network exploitation basics.</p>
+          <div class="skill-foot">
+            <a href="https://drive.google.com/file/d/1mJxvw0Y9LANGekwpYpKhk78oQwkdy_g6/view?usp=drivesdk" target="_blank" class="accent" style="text-decoration: underline;">VIEW CERTIFICATE ↗</a>
+          </div>
+        </article>
+
+        <!-- 02: Deloitte Cyber Job Simulation -->
+        <article class="skill-card">
+          <span>02 / JOB SIMULATION</span>
+          <div class="skill-icon">DEL</div>
+          <h3>Deloitte (via Forage)</h3>
+          <p><strong>Cyber Job Simulation</strong><br>Practical hands-on tasks in cyber threat analysis, corporate risk assessment, and incident management.</p>
+          <div class="skill-foot">
+            <a href="https://drive.google.com/file/d/1Z9sNAFZ7FCwoqSNsu69dAfGzHCRLxqxA/view?usp=drivesdk" target="_blank" class="accent" style="text-decoration: underline;">VIEW CERTIFICATE ↗</a>
+          </div>
+        </article>
+
+        <!-- 03: TCS iON AI Basics -->
+        <article class="skill-card">
+          <span>03 / ARTIFICIAL INTELLIGENCE</span>
+          <div class="skill-icon">TCS</div>
+          <h3>TCS iON Career Edge</h3>
+          <p><strong>AI Basics &amp; Essentials</strong><br>Generative AI essentials, prompt engineering basics, AI tools, and responsible AI implementation.</p>
+          <div class="skill-foot">
+            <a href="https://drive.google.com/file/d/1F_2Zej9SpXwGWxdDSZ-Q9fRm2EEfiTKg/view?usp=drivesdk" target="_blank" class="accent" style="text-decoration: underline;">VIEW CERTIFICATE ↗</a>
+          </div>
+        </article>
+
+        <!-- 04: Simplilearn Cybercrime -->
+        <article class="skill-card">
+          <span>04 / CYBERSECURITY</span>
+          <div class="skill-icon">SIM</div>
+          <h3>Simplilearn SkillUp</h3>
+          <p><strong>Introduction to Cybercrime</strong><br>Fundamentals of cybercrime identification, digital threat vectors, security protocols, and compliance.</p>
+          <div class="skill-foot">
+            <a href="https://drive.google.com/file/d/1m_Njf4Qww60ohAVUnISlL5W1QBACLyEm/view?usp=drivesdk" target="_blank" class="accent" style="text-decoration: underline;">VIEW CERTIFICATE ↗</a>
+          </div>
+        </article>
+
+        <!-- 05: WsCube Tech Masterclass -->
+        <article class="skill-card">
+          <span>05 / MASTERCLASS</span>
+          <div class="skill-icon">WSC</div>
+          <h3>WsCube Tech</h3>
+          <p><strong>Ethical Hacking in AI Era</strong><br>Masterclass on in-demand cybersecurity tools, threat defense methodologies, and modern AI security trends.</p>
+          <div class="skill-foot">
+            <a href="https://drive.google.com/file/d/1AGlKJvHsUGepBwFC4Ve0BlVJ4bPxGd58/view?usp=drivesdk" target="_blank" class="accent" style="text-decoration: underline;">VIEW CERTIFICATE ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <!-- Experience / Internship Section -->
+    <section class="section-wrap content-section" id="experience">
+      <div class="section-label">02.8 / EXPERIENCE <span>PRACTICAL EXPOSURE</span></div>
+      <div class="section-heading">
+        <h2>INTERNSHIP &amp; <span class="accent">TRAINING.</span></h2>
+        <p>Real-world practical experience &amp; security workflow exposure.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <p class="project-type">INTERNSHIP · CYBERSECURITY</p>
+            <h3>Cyber Security Intern</h3>
+            <p class="accent" style="font-weight: 600; margin-bottom: 8px;">PRACTICAL CYBERSECURITY WORKFLOWS</p>
+            <p>
+              Gained practical experience in network traffic analysis, vulnerability assessments, security scripting with Python, and understanding defensive security frameworks.
+            </p>
+            <div class="project-tags">
+              <span>CYBERSECURITY</span>
+              <span>NETWORK DEFENSE</span>
+              <span>PYTHON AUDITING</span>
+              <span>VULNERABILITY SCANNING</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://drive.google.com/file/d/1A3eSAxPdWPkjqt1vA6HKsi53tkv0pXJd/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">VERIFY EXPERIENCE ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section class="section-wrap content-section" id="projects">
+      <div class="section-label">03 / SELECTED WORK <span>LEARNING THROUGH BUILDING</span></div>
+      <div class="section-heading">
+        <h2>PROJECTS<span class="accent">.</span></h2>
+        <p>Small builds. Real learning.<br>More security tools ahead.</p>
+      </div>
+
+      <div class="project-list">
+
+        <!-- 01: Spider-Man Hydration Tracker (WITH LIVE DEMO) -->
+        <article class="project">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <p class="project-type">WEB / FRONTEND INTERACTIVE</p>
+            <h3>Spider-Man Hydration Tracker</h3>
+            <p>An interactive Spider-Man themed hydration tracker built with HTML, CSS, and JavaScript to make daily water tracking fun and engaging.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JAVASCRIPT</span>
+            </div>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a class="project-link" href="https://bhoomijaiswal28.github.io/spiderman-hydration/" target="_blank" rel="noopener noreferrer">LIVE DEMO 🚀</a>
+            <a class="project-link" href="https://github.com/Bhoomijaiswal28/spiderman-hydration/tree/main" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+          </div>
+        </article>
+
+        <!-- 02: Password Strength Checker -->
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-main">
+            <p class="project-type">PYTHON / SECURITY TOOL</p>
+            <h3>Password Strength Checker</h3>
+            <p>Checks password complexity, length, and security criteria, giving helpful feedback to improve user credentials.</p>
+            <div class="project-tags">
+              <span>PYTHON</span>
+              <span>CREDENTIAL SECURITY</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://github.com/Bhoomijaiswal28/passwordstrenthchecker" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+        </article>
+
+        <!-- 03: Phishing Awareness Tool -->
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-main">
+            <p class="project-type">PYTHON / SECURITY AWARENESS</p>
+            <h3>Phishing Awareness Tool</h3>
+            <p>Analyzes suspicious link characteristics, suspicious keywords, and basic risk scores to assist in phishing detection.</p>
+            <div class="project-tags">
+              <span>PYTHON</span>
+              <span>THREAT ANALYSIS</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://github.com/Bhoomijaiswal28/phishing-awarenes" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+        </article>
+
+        <!-- 04: NetGuard - AI Attack Predictor -->
+        <article class="project">
+          <div class="project-number">04</div>
+          <div class="project-main">
+            <p class="project-type">NETWORKING / MACHINE LEARNING</p>
+            <h3>NetGuard — Attack Predictor</h3>
+            <p>A machine learning project analyzing network traffic data to predict potential cyber threats and attack vectors.</p>
+            <div class="project-tags">
+              <span>NETWORKING</span>
+              <span>MACHINE LEARNING</span>
+              <span>TRAFFIC ANALYSIS</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://github.com/Bhoomijaiswal28/netguard-AI-Network-Attack-Predictor-" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+        </article>
+
+        <!-- 05: Encryption & Decryption -->
+        <article class="project">
+          <div class="project-number">05</div>
+          <div class="project-main">
+            <p class="project-type">PYTHON / CRYPTOGRAPHY</p>
+            <h3>Text Encryption &amp; Decryption</h3>
+            <p>A cryptographic Python script for securely encrypting and decrypting sensitive text data using standard ciphers.</p>
+            <div class="project-tags">
+              <span>PYTHON</span>
+              <span>CRYPTOGRAPHY</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://github.com/Bhoomijaiswal28/encryption-and-description-" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+        </article>
+
+        <!-- 06: Network Packet Sniffer Demo -->
+        <article class="project">
+          <div class="project-number">06</div>
+          <div class="project-main">
+            <p class="project-type">NETWORKING / PACKET ANALYSIS</p>
+            <h3>Network Packet Sniffer Demo</h3>
+            <p>A Python packet sniffer script designed to inspect raw network packets, IP headers, and basic protocols for diagnostics.</p>
+            <div class="project-tags">
+              <span>PYTHON</span>
+              <span>NETWORKING</span>
+              <span>PACKET ANALYSIS</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://github.com/Bhoomijaiswal28/sniffer_demo.py-" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+        </article>
+
+        <!-- 07: Vulnerability Scanner Script -->
+        <article class="project">
+          <div class="project-number">07</div>
+          <div class="project-main">
+            <p class="project-type">SECURITY / VULNERABILITY AUDIT</p>
+            <h3>Vulnerability Scanner Script</h3>
+            <p>An automated Python vulnerability auditing tool to scan target ports, identify open services, and highlight potential risk points.</p>
+            <div class="project-tags">
+              <span>PYTHON</span>
+              <span>PORT SCANNING</span>
+              <span>SECURITY AUDIT</span>
+            </div>
+          </div>
+          <a class="project-link" href="https://github.com/Bhoomijaiswal28/vurneabilty.py.git" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>
+        </article>
+
+      </div>
+      <p class="small-note">All project links connect directly to their verified GitHub repositories.</p>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="section-wrap content-section journey" id="journey">
+      <div class="section-label">04 / THE JOURNEY <span>PROGRESS OVER PERFECTION</span></div>
+      <h2>ALWAYS <span class="accent">LEARNING.</span></h2>
+      <div class="journey-grid">
+        <div>
+          <span class="journey-no">01</span>
+          <h3>Strengthen the basics</h3>
+          <p>Programming, OS internals and networking fundamentals.</p>
+          <small>ONGOING</small>
+        </div>
+        <div>
+          <span class="journey-no">02</span>
+          <h3>Build practical tools</h3>
+          <p>Python security scripts, awareness tools and security audits.</p>
+          <small>ONGOING</small>
+        </div>
+        <div>
+          <span class="journey-no">03</span>
+          <h3>Explore defensive security</h3>
+          <p>Learn SIEM tools, SOC operations, log analysis and incident response.</p>
+          <small>NEXT LAYER</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-wrap contact-section" id="contact">
+      <p class="eyebrow">05 / OPEN A CONNECTION</p>
+      <h2>LET’S BUILD<br>SOMETHING <span class="accent">USEFUL.</span></h2>
+      <p>Interested in cybersecurity, beginner-friendly projects or learning together? Let's connect.</p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:bhoomijaiswal28@gmail.com">EMAIL ME ↗</a>
+        <a class="button button-ghost" href="Bhoomi jaiswal re
